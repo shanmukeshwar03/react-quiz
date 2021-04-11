@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+@import './App/App.scss';
+@import './Components/Body/Body.scss';
+@import './Components/Header/Header.scss';
+@import './Components/Question/Question.scss';
+
+.end {
+  display: none;
+}

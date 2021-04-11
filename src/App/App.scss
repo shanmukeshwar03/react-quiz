@@ -1,0 +1,16 @@
+$boxShadow: 9px 9px 9px 5px rgba(0, 0, 0, 0.3);
+
+.container {
+  width: 50vw;
+  background-color: white;
+  box-shadow: $boxShadow;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 90vw;
+    background-color: white;
+    box-shadow: $boxShadow;
+  }
+}
